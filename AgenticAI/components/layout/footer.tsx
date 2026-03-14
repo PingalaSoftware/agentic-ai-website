@@ -1,13 +1,11 @@
 import Link from "next/link"
-import { Facebook, Linkedin, Twitter, X, Send } from "lucide-react"
+import { Linkedin, X, Send } from "lucide-react"
 import { FOOTER_LINKS, SUPPORT_LINKS, SOCIAL_LINKS } from "@/data/constants"
 
 const socialIcons = {
-  Facebook,
   Linkedin,
-  Twitter,
-  X,
   Send,
+  X,
 }
 
 export function Footer() {
@@ -64,7 +62,7 @@ export function Footer() {
 
           {/* Connect */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Connect Us</h3>
+            <h3 className="text-white font-semibold mb-4">Connect With Us</h3>
             <div className="flex space-x-3">
               {SOCIAL_LINKS.map((social) => {
                 const Icon = socialIcons[social.icon as keyof typeof socialIcons]
@@ -87,9 +85,9 @@ export function Footer() {
                 )
               })}
             </div>
-            <p className="mt-4 text-gray-500 text-xs md:text-sm">
+            {/* <p className="mt-4 text-gray-500 text-xs md:text-sm">
               © {new Date().getFullYear()} Agentic AI Show. All Rights Reserved.
-            </p>
+            </p> */}
           </div>
         </div>
 
@@ -98,7 +96,8 @@ export function Footer() {
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2">
               <p className="text-gray-500 text-sm">
-                Copyright & Design By @Sanmeet_Bamane
+                {/* Copyright & Design By @Sanmeet_Bamane */}
+                © {new Date().getFullYear()} Agentic AI Show. All Rights Reserved.
               </p>
             </div>
             <div className="flex items-center space-x-4">

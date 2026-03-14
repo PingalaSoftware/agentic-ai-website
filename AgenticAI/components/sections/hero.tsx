@@ -62,7 +62,7 @@ export function Hero() {
               <span className="text-blue-500">2026</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-white/90 font-light">
-              beyond assistants. into autonomy.
+              Beyond Assistants. Into Autonomy.
             </p>
           </div>
 

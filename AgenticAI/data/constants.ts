@@ -26,10 +26,9 @@ export const SUPPORT_LINKS: NavLink[] = [
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { platform: "twitter", href: "#", icon: "X" },
-  { platform: "facebook", href: "#", icon: "Facebook" },
   { platform: "linkedin", href: "#", icon: "Linkedin" },
   { platform: "telegram", href: "#", icon: "Send" },
+  { platform: "X", href: "#", icon: "X" },
 ]
 
 export const HERO_EVENT_DETAILS: EventDetail[] = [

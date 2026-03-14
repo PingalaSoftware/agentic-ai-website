@@ -19,7 +19,7 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Agentic AI Show 2026 | Beyond Assistants, Into Autonomy",
-  description: "Join 800+ attendees for the premier event on autonomous AI systems. Plan. Reason. Act. Bangalore, India.",
+  description: "Join 1000+ attendees for the premier event on autonomous AI systems. Plan. Reason. Act. Bangalore, India.",
   keywords: ["Agentic AI", "AI Conference", "Autonomous Systems", "AI 2026", "Bangalore AI Event"],
   // icons: {
   //   icon: "/favicon.png",
