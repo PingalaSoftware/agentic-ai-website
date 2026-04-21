@@ -18,9 +18,14 @@ export function ReadyToDefineFuture() {
             <button className="min-w-[180px] px-8 py-3 text-base font-semibold text-white bg-[#003056] rounded-full hover:bg-[#00308F]/90 transition-all duration-200 shadow-lg">
               Get Your Ticket
             </button>
-            <button className="min-w-[180px] px-8 py-3 text-base font-semibold text-white bg-[#003056] rounded-full hover:bg-[#00308F]/90 transition-all duration-200 shadow-lg">
-              Apply To Exhibit
-            </button>
+            <a
+              href="https://forms.gle/j1rmYcV85VWXkxBq8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="min-w-[180px] px-8 py-3 text-base font-semibold text-white bg-[#003056] rounded-full hover:bg-[#00308F]/90 transition-all duration-200 shadow-lg text-center"
+            >
+              Apply To Sponsor/Exhibit
+            </a>
           </div>
         </div>
       </div>

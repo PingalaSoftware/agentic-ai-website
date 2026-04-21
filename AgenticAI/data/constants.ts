@@ -26,7 +26,7 @@ export const SUPPORT_LINKS: NavLink[] = [
 ]
 
 export const SOCIAL_LINKS: SocialLink[] = [
-  { platform: "linkedin", href: "#", icon: "Linkedin" },
+  { platform: "linkedin", href: "https://www.linkedin.com/company/technical-agility-conference/", icon: "Linkedin" },
   { platform: "telegram", href: "#", icon: "Send" },
   { platform: "X", href: "#", icon: "X" },
 ]

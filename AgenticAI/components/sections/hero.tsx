@@ -95,9 +95,14 @@ export function Hero() {
             <button className="rounded-full min-w-[200px] px-8 py-3 text-base font-medium text-white border-2 border-[#30B1FC] bg-[#003159]/0 hover:bg-[#003159]/10 transition-all duration-200">
               Register Now
             </button>
-            <button className="rounded-full min-w-[200px] px-8 py-3 text-base font-medium text-white border-2 border-[#FFFCFC] bg-[#30B1FC]/30 hover:bg-[#30B1FC]/90 transition-all duration-200">
+            <a
+              href="https://forms.gle/j1rmYcV85VWXkxBq8"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-full min-w-[200px] px-8 py-3 text-base font-medium text-white border-2 border-[#FFFCFC] bg-[#30B1FC]/30 hover:bg-[#30B1FC]/90 transition-all duration-200 text-center"
+            >
               Become Sponsor
-            </button>
+            </a>
           </div>
         </div>
       </div>

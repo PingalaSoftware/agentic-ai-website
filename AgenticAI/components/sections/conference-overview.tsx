@@ -3,6 +3,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { CONFERENCE_CHECKLIST } from "@/data/constants"
 import Image from "next/image"
+import Link from "next/link"
 
 export function ConferenceOverview() {
   return (
@@ -61,10 +62,12 @@ export function ConferenceOverview() {
 
                 {/* CTA Button */}
                 <div className="flex justify-start">
-                  <button className="flex items-center gap-2 px-8 py-3 text-base font-medium bg-[#30B1FC]/30 text-white border-2 border-[#30B1FC] rounded-full hover:bg-[#30B1FC]/50 transition-all duration-200">
-                    {/* <Check className="w-5 h-5" /> */}
-                    Know More
-                  </button>
+                  <Link href="/agenda">
+                    <button className="flex items-center gap-2 px-8 py-3 text-base font-medium bg-[#30B1FC]/30 text-white border-2 border-[#30B1FC] rounded-full hover:bg-[#30B1FC]/50 transition-all duration-200">
+                      {/* <Check className="w-5 h-5" /> */}
+                      Know More
+                    </button>
+                  </Link>
                 </div>
               </div>
             </div>
