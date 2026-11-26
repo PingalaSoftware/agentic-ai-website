@@ -59,7 +59,7 @@ export function Hero() {
           <div className="mb-6 space-y-4 animate-fade-in">
             <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-white leading-tight">
               Agentic AI Show{" "}
-              <span className="text-blue-500">2026</span>
+              <span className="text-blue-500">2027</span>
             </h1>
             <p className="text-lg sm:text-xl md:text-2xl text-white/90 font-light">
               Beyond Assistants. Into Autonomy.
