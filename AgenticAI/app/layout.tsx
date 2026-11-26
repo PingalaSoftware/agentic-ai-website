@@ -18,12 +18,12 @@ const poppins = Poppins({
 })
 
 export const metadata: Metadata = {
-  title: "Agentic AI Show 2026 | Beyond Assistants, Into Autonomy",
+  title: "Agentic AI Show 2027 | Beyond Assistants, Into Autonomy",
   description: "Join 1000+ attendees for the premier event on autonomous AI systems. Plan. Reason. Act. Bangalore, India.",
-  keywords: ["Agentic AI", "AI Conference", "Autonomous Systems", "AI 2026", "Bangalore AI Event"],
-  // icons: {
-  //   icon: "/favicon.png",
-  // },
+  keywords: ["Agentic AI", "AI Conference", "Autonomous Systems", "AI 2027", "Bangalore AI Event"],
+  icons: {
+    icon: "/favicon.png",
+  },
 }
 
 export default function RootLayout({
